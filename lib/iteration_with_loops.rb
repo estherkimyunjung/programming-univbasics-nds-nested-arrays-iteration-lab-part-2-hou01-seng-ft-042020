@@ -14,10 +14,10 @@ def find_min_in_nested_arrays(src)
       if min_num < src[index][inside_index]
       min_num = src[index][inside_index]
     end
-      inside_index += 1 
+      column_index += 1 
     end
     new_arry << min_num
-    index += 1 
+    row_index += 1 
     
   end
   new_arry
