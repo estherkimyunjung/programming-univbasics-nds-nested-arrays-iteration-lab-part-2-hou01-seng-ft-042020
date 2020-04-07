@@ -9,10 +9,10 @@ def find_min_in_nested_arrays(src)
   while row_index < src.length do
     column_index = 0 
     min_num = 1000000000
-    while column_index < src[index].length do
+    while column_index < src[row_index].length do
       
-      if min_num < src[index][inside_index]
-      min_num = src[index][inside_index]
+      if min_num < src[row_index][column_index]
+      min_num = src[ow_index][column_index]
     end
       column_index += 1 
     end
