@@ -12,7 +12,7 @@ def find_min_in_nested_arrays(src)
     while column_index < src[row_index].length do
       
       if min_num > src[row_index][column_index]
-      min_num = src[ow_index][column_index]
+      min_num = src[row_index][column_index]
     end
       column_index += 1 
     end
